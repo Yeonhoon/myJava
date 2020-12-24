@@ -7,7 +7,7 @@ public class StringExam03_contain {
 		
 		//replace
 		news= news.replace("java", "자바");
-		
+
 		//contains
 		if(news.contains("자바")){
 			System.out.println(true);

@@ -13,9 +13,7 @@ public class Example {
 			System.out.println("잘못된 파일 경로입니다.");
 		} catch (IOException e) {
 			System.out.println("잘못된 파일 경로입니다.");
-			
 		}
-
 	}
 	//static이 있어야 method이름만을 갖고 사용할수있다.
 	//throw는 , 를 이용해서 여러개의 예외를 호출할수있음

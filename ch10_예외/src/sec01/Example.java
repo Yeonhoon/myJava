@@ -27,7 +27,6 @@ public class Example {
 			int num = scanner.nextInt();
 		} catch (InputMismatchException e) {
 			System.out.println("번호로 입력하세요.");
-			
 		}
 
 		//일반예외
@@ -38,6 +37,6 @@ public class Example {
 			System.out.println("예외 처리 내용");
 		}
 		System.out.println(value);
-		}
-		
+	}
+
 }

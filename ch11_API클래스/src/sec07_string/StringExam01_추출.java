@@ -8,7 +8,6 @@ public class StringExam01_추출 {
 		//charAt
 		String ssn = "123456-1234567";
 		char sex = ssn.charAt(7);
-		
 		if(sex=='1'|| sex=='3') {
 			System.out.println("남");
 		} else {
@@ -27,7 +26,7 @@ public class StringExam01_추출 {
 		System.out.println(arr[1]);
 		
 		String tel = "010-5012-7795";
-		String [] arr2 = tel.split("\\.");
+		String [] arr2 = tel.split("-"); //split에서 .은 정규식으로 표현되므로 "\\."으로 나눠야함.
 		for(int i = 0; i<arr2.length;i++) {
 			System.out.println(arr2[i]);
 		}
