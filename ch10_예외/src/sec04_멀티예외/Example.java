@@ -1,4 +1,4 @@
-package sec04;
+package sec04_멀티예외;
 
 public class Example {
 
