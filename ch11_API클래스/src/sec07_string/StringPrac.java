@@ -40,17 +40,26 @@ public class StringPrac {
 		for (int i = 0; i < arr2.length; i++) {
 			System.out.println(arr2[i].replaceAll("A$", "aaaaaaaaaaaaa"));
 		}
-		
+
 		// 8. contain(); 특정 단어 포함여부
 		System.out.println(x2.contains("서울")); // boolean true false
-		
-		// 9. indexOf(""); ""가 포함되어 있는 위치  lastIndexOf(""); ""의 마지막번째 위치
-		System.out.println(x2.indexOf("서울")); 
+
+		// 9. indexOf(""); ""가 포함되어 있는 위치 lastIndexOf(""); ""의 마지막번째 위치
+		System.out.println(x2.indexOf("서울"));
 		String num = "010-5012-7795-010-5240-9233";
 		System.out.println(num.lastIndexOf("-"));
-		
-		
-		
 
+		// 10. startWith() & endsWith() : true / false
+		System.out.println(x2.startsWith("서울"));
+		
+		// 12. toString(): 문자열 그대로 String으로 반환
+		String i = "12345";
+		System.out.println(i.toString());
+		
+		// 13. concat(): 문자열과 문자열 결합
+		String str1 = "안녕하세요 ";
+		String str2 = "장연훈입니다.";
+		System.out.println(str1.concat(str2)); 
+		
 	}
 }
